@@ -117,6 +117,8 @@ Ajouter temporairement une fausse cible (par exemple `10.255.255.1`) dans le job
 - Dans Prometheus, la requête `probe_success` vaut `1` pour chaque cible sondée (`0` = en panne).
 - Dans Grafana, les dashboards affichent des données, et le bouton *Test* du contact point envoie un message sur Discord.
 
+## Captures d'écran
+
 ### Dashboard Node Exporter (état du Raspberry Pi)
 
 ![Vue générale du Pi](docs/screenshots/node-exporter-vue-generale.png)
@@ -132,9 +134,12 @@ Ajouter temporairement une fausse cible (par exemple `10.255.255.1`) dans le job
 ![Google en DOWN](docs/screenshots/blackbox-google-down-ipv6.png)
 ![Google en UP après correction](docs/screenshots/blackbox-google-up-apres-correction.png)
 
-### Alerte Discord
+### Alertes Discord
 
-![Message d'alerte reçu sur Discord](docs/screenshots/alerte-discord-test.png)
+![Test du contact point Discord](docs/screenshots/alerte-discord-test.png)
+![Alerte Pi trop chaud](docs/screenshots/alerte-pi-chaud.png)
+![Alerte Pi trop chaud sur Discord](docs/screenshots/alerte-pi-chaud-discord.png)
+![Retour à la normale du Pi](docs/screenshots/alerte-pi-normal.png)
 
 ## Problèmes rencontrés et solutions
 
